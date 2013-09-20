@@ -7,4 +7,4 @@ for file in os.listdir('.'):
         create_argument += file + " "
         print file
 
-os.system("lipo -create %s -output %s" % (create_argument, "libMachineIdentificatoriOS.a"))
+os.system("lipo -create %s -output %s" % (create_argument, "libUniversal.a"))
